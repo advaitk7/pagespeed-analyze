@@ -1,0 +1,30 @@
+{
+  "name": "pagespeed-analyze",
+  "version": "0.0.0",
+  "description": "Keep a track of Pagespeed Scores for your website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advaitk7/pagespeed-analyze.git"
+  },
+  "keywords": [
+    "Pagespeed"
+  ],
+  "author": "Advait Khedkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advaitk7/pagespeed-analyze/issues"
+  },
+  "homepage": "https://github.com/advaitk7/pagespeed-analyze#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
